@@ -15,7 +15,7 @@
 		var x = new XMLHttpRequest();
 		function handler() {
 			if (x.readyState == 4 && x.status == 200) {
-				setTimeout(function() { location.reload(); }, 500);
+				setTimeout(function() { location.reload(); }, 5000);
 			}
 		}
 		function toggle() {
