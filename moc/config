@@ -1,0 +1,3 @@
+SoundDriver = ALSA
+InputBuffer = 1024
+Prebuffering = 128
