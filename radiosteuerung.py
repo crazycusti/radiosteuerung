@@ -57,5 +57,6 @@ def command(cmd):
 if get_state() == DEAD:
     cmd_start()
 
-#b.run(host='localhost', port=8088, debug=True)
-b.run(host='0.0.0.0', port=8088)
+b.TEMPLATE_PATH.insert(0, '/insertpathhere/') # location of template
+#b.run(host='localhost', port=8088, debug=True) # not recommended
+b.run(host='0.0.0.0', port=8088) 
