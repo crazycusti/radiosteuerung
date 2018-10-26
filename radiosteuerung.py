@@ -57,6 +57,6 @@ def command(cmd):
 if get_state() == DEAD:
     cmd_start()
 
-b.TEMPLATE_PATH.insert(0, '/insertpathhere/') # location of template
+b.TEMPLATE_PATH.insert(0, '/insertpathhere/') # location of template, insert radiosteuerung.tpl here, example: /opt/radiosteuerung/views/radiosteuerung.tpl
 #b.run(host='localhost', port=8088, debug=True) # not recommended
 b.run(host='0.0.0.0', port=8088) 
