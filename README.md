@@ -11,10 +11,11 @@ budgie entertainment.
 * [bottle.py](https://github.com/bottlepy/bottle) micro web framework
 
 ## Installation
-1. Install MOC and append your favorite internet radio station to its playlist.
-2. Install your distribution's package for bottle.py for Python 3 (for example,
+1. Create a "mocp" user. Add group "audio" to "mocp".
+2. Install MOC and append your favorite internet radio station to its playlist.
+3. Install your distribution's package for bottle.py for Python 3 (for example,
    `python3-bottle` on Ubuntu) or drop a copy of
    [the latest version](https://raw.githubusercontent.com/bottlepy/bottle/master/bottle.py)
    in the same directory.
-3. Use your distribution's service manager to run radiosteuerung.py as the same
-   user as MOC. A sample upstart job file is provided.
+4. Use your distribution's service manager to run radiosteuerung.py as the same
+   user as MOC. A sample upstart or systemd job/service file is provided.
