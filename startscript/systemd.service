@@ -1,0 +1,12 @@
+[Unit]
+Description=Budgieentertainment
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/opt/radiosteuerung/radiosteuerung.py
+WorkingDirectory=/opt/radiosteuerung
+User=mocp
+
+[Install]
+WantedBy=multi-user.target
